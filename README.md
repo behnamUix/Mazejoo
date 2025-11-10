@@ -4,9 +4,9 @@
 
 ## اسکرین‌شات‌ها
 
-| صفحه اصلی (نقشه)  | جزئیات مکان | مسیریابی / End |
-|-----------------|--------------|-------------|----------------|
-| <img src="https://i.imgur.com/jwYQ9zC.jpeg" width="240"><br>مزه جو | <img src="https://i.imgur.com/ZRpwsly.jpeg" width="240"><br>مکان‌های اطراف | <img src="https://i.imgur.com/8Z0l5li.jpeg" width="240"><br>مسیریابی | <img src="https://i.imgur.com/fAxzvF6.jpeg" width="240"><br>end |
+| صفحه اصلی (نقشه) | جزئیات مکان | مسیریابی | End |
+|-----------------|-------------|-----------|-----|
+| <img src="https://i.imgur.com/jwYQ9zC.jpeg" width="220"><br>مزه جو | <img src="https://i.imgur.com/ZRpwsly.jpeg" width="220"><br>مکان‌های اطراف | <img src="https://i.imgur.com/8Z0l5li.jpeg" width="220"><br>مسیریابی | <img src="https://i.imgur.com/fAxzvF6.jpeg" width="220"><br>end |
 
 ## ویژگی‌ها
 

@@ -1,113 +1,55 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mazejoo — README</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; color:#111; background:#fff; }
-    h1 { color:#222; margin-bottom:0.25rem; }
-    p.lead { color:#444; margin-top:0; margin-bottom:1rem; }
-    .badges img { height:20px; margin-left:8px; vertical-align:middle; }
-    .features { list-style: none; padding:0; display:grid; gap:0.5rem; }
-    .features li::before { content: "•"; color:#f2c032; display:inline-block; width:1rem; }
-    table.screenshots { width:100%; border-collapse: collapse; margin: 1rem 0; }
-    table.screenshots td, table.screenshots th { border: 1px solid #eee; padding: 8px; text-align:center; vertical-align:top; }
-    table.screenshots img { width: 100%; max-width: 240px; height: auto; border-radius:12px; background:#f6f6f6; }
-    .note { font-size:0.95rem; color:#666; margin-top:0.5rem; }
-    footer { margin-top:2rem; color:#666; font-size:0.9rem; }
-  </style>
-</head>
-<body>
+# Mazejoo — مزه‌جو
 
-  <h1>Mazejoo — مزه‌جو</h1>
-  <div class="badges">
-    <!-- جای Badge ها (اختیاری) -->
-    <!-- <img src="YOUR_BADGE_URL_HERE" alt="badge"> -->
-  </div>
+اپلیکیشنی برای کشف رستوران‌ها و کافه‌های نزدیک، نمایش روی نقشه و مسیریابی — رابط کاربری ساده، تیره با رنگ برند زرد و مشکی.
 
-  <p class="lead">اپلیکیشنی برای کشف رستوران‌ها و کافه‌های نزدیک، نمایش روی نقشه و مسیریابی — رابط کاربری ساده، تیره با رنگ برند زرد و مشکی.</p>
+---
 
-  <!-- جدول اسکرین‌شات‌ها -->
-  <table class="screenshots" aria-label="Screenshots">
-    <thead>
-      <tr>
-        <th>صفحه اصلی (نقشه)</th>
-        <th>فیلتر + لیست</th>
-        <th>جزئیات مکان</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <img src="https://drive.google.com/uc?export=view&id=1nA4MzwBZHj59ibEpJg3bw_R1JqfTYw0S" alt="Screenshot Mazejoo">
-          <div class="note">مزه جو</div>
-        </td>
-        <td>
-          <img src="https://drive.google.com/uc?export=view&id=1WoTJcqh8vTvbLSU7gbqlQ64xgViTB1sb" alt="Screenshot Mazejoo">
-          <div class="note">مجستجومکان های اطراف</div>
-        </td>
-        <td>
-          <img src="https://drive.google.com/uc?export=view&id=1NcJTDTv2SLhcpmeZjZbuFh9__bK1dYcE" alt="Screenshot Mazejoo">
-          <div class="note">مسیریابی</div>
-        </td>
-        <td>
-          <img src="https://drive.google.com/uc?export=view&id=1U4FFf7NfRaVuEukNm7x8t5o6c68U9JnO" alt="Screenshot Mazejoo">
-          <div class="note">end</div>
-        </td>
-      </tr>
+## اسکرین‌شات‌ها
 
-      <tr>
-        <th>مسیریابی</th>
-        <th>جستجو / پیشنهاد</th>
-        <th>پروفایل یا منو</th>
-      </tr>
-      <tr>
-        <td>
-          <img src="" alt="Mazejoo - Routing (PLACEHOLDER)">
-          <div class="note">نمای مسیر بین کاربر و مقصد</div>
-        </td>
-        <td>
-          <img src="" alt="Mazejoo - Search (PLACEHOLDER)">
-          <div class="note">جستجوی مکان و پیشنهادها</div>
-        </td>
-        <td>
-          <img src="" alt="Mazejoo - Profile (PLACEHOLDER)">
-          <div class="note">بخش پروفایل یا منوی تنظیمات</div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+| صفحه اصلی (نقشه) | فیلتر + لیست | جزئیات مکان |
+|-----------------|-----------------|-------------|
+| ![Screenshot Mazejoo](https://drive.google.com/uc?export=view&id=1nA4MzwBZHj59ibEpJg3bw_R1JqfTYw0S)<br>مزه جو | ![Screenshot Mazejoo](https://drive.google.com/uc?export=view&id=1WoTJcqh8vTvbLSU7gbqlQ64xgViTB1sb)<br>مجستجومکان های اطراف | ![Screenshot Mazejoo](https://drive.google.com/uc?export=view&id=1NcJTDTv2SLhcpmeZjZbuFh9__bK1dYcE)<br>مسیریابی |
 
-  <h2>ویژگی‌ها (Features)</h2>
-  <ul class="features">
-    <li>نمایش مکان‌های اطراف (رستوران، کافه) روی نقشه</li>
-    <li>مسیریابی کاربر به مقصد با نمایش پلی‌لاین</li>
-    <li>فیلتر بر اساس نوع مکان، فاصله و امتیاز (در نسخه‌های بعدی)</li>
-    <li>لود تصاویر مکان‌ها با کش و placeholder</li>
-    <li>پشتیبانی از چند سرور Overpass و مدیریت تایم‌اوت</li>
-  </ul>
+| مسیریابی | جستجو / پیشنهاد | پروفایل یا منو |
+|-----------|-----------------|----------------|
+| ![Mazejoo - Routing (PLACEHOLDER)]() <br>نمای مسیر بین کاربر و مقصد | ![Mazejoo - Search (PLACEHOLDER)]() <br>جستجوی مکان و پیشنهادها | ![Mazejoo - Profile (PLACEHOLDER)]() <br>بخش پروفایل یا منوی تنظیمات |
 
-  <h2>پیکربندی‌ها و مجوزها</h2>
-  <ul>
-    <li>نیازمند مجوزهای مکان: <code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></li>
-    <li>نیازمند اینترنت: <code>INTERNET</code></li>
-    <li>در صورت استفاده از نقشه (Neshan) کلید سرویس باید تنظیم شود</li>
-  </ul>
+---
 
+## ویژگی‌ها (Features)
 
-  <h2>مشارکت (Contributing)</h2>
-  <p>خوشحال می‌شیم مشارکت کنی. لطفاً یک <em>issue</em> باز کن یا یک <em>pull request</em> ارسال کن. در PR، تغییرات را توضیح بده و اگر مربوط به UI است، اسکرین‌شات بفرست.</p>
+- نمایش مکان‌های اطراف (رستوران، کافه) روی نقشه
+- مسیریابی کاربر به مقصد با نمایش پلی‌لاین
+- فیلتر بر اساس نوع مکان، فاصله و امتیاز (در نسخه‌های بعدی)
+- لود تصاویر مکان‌ها با کش و placeholder
+- پشتیبانی از چند سرور Overpass و مدیریت تایم‌اوت
 
-  <h2>لایسنس</h2>
-  <p>این پروژه تحت لایسنس <strong>MIT</strong> عرضه شده — در صورت نیاز بخش لایسنس را در فایل <code>LICENSE</code> اضافه کن.</p>
+---
 
-  <h2>ارتباط</h2>
-  <p>برای سوالات یا همکاری می‌تونی ایمیل بزنی: <code>behnam.ir77@gmail.com</code></p>
+## پیکربندی‌ها و مجوزها
 
-  <footer>
-    <p>© <strong>Mazejoo</strong> — طراحی و توسعه توسط BehnamUix. برای نمایش بهتر اسکرین‌شات‌ها، عکس‌ها را در پوشه <code>/docs/screenshots</code> قرار دهید و لینک آن‌ها را در تگ‌های <code>&lt;img src="..."&gt;</code> وارد کنید.</p>
-  </footer>
+- نیازمند مجوزهای مکان: `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`
+- نیازمند اینترنت: `INTERNET`
+- در صورت استفاده از نقشه (Neshan) کلید سرویس باید تنظیم شود
 
-</body>
-</html>
+---
+
+## مشارکت (Contributing)
+
+خوشحال می‌شیم مشارکت کنی. لطفاً یک *issue* باز کن یا یک *pull request* ارسال کن. در PR، تغییرات را توضیح بده و اگر مربوط به UI است، اسکرین‌شات بفرست.
+
+---
+
+## لایسنس
+
+این پروژه تحت لایسنس **MIT** عرضه شده — در صورت نیاز بخش لایسنس را در فایل `LICENSE` اضافه کن.
+
+---
+
+## ارتباط
+
+برای سوالات یا همکاری می‌تونی ایمیل بزنی: `behnam.ir77@gmail.com`
+
+---
+
+© **Mazejoo** — طراحی و توسعه توسط BehnamUix
